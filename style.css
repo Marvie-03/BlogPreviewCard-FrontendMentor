@@ -145,17 +145,24 @@ span{
 .user-details{
     display: flex;
     max-height: 2rem;
-    height: max-content;
+    /* height: max-content; */
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 1rem;
-    justify-content: space-between;
-    max-width:33.3% ;
+    /* justify-content: center; */
 }
 .user-details img{
-    max-height: 1.8rem;
+    max-height: inherit;
     width: auto;
+    padding-right: .4em;
 }
+h3{
+    font-size: 1em;
+}
+/* .user-details p{
+    font-weight: 700;
+    text-align: center;
+} */
 footer{
     position: absolute;
     bottom: 1rem;
