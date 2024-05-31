@@ -35,7 +35,7 @@ ol[role="list"] {
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
+  min-height: 100svh;
   line-height: 1.5;
   padding: 1rem;
 }
@@ -121,11 +121,12 @@ p{
  color: var(--grey);
 }
 .card{
-    max-width: 20rem;
+    max-width: 25rem;
     background-color: var(--white);
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0.5rem 0.5rem;
+    transition: box-shadow 2s;
 }
 .card:hover{
     box-shadow: 1rem 1rem;
